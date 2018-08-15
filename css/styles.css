@@ -43,31 +43,81 @@ p{
     margin-top: 0;
 }
 
-.botoes1>img{
+.botoes1>.box{
     display: inline-flex;
     border: rgba(0,0, 0, 0.3) 15px solid;
     background-color:  rgba(0,0, 0, 0.3);
     border-radius: 500px;
     margin-right: 0.70em;
-    
-      
+       
 }
 
-#button1:hover{
+#box1{
+    background-image: url(../img/icone-ios.png);
+    background-color: rgba(0,0, 0, 0.5);
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width:60px;
+    height:60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-right: 18px;
+    border-radius: 500px;
+}
+
+#box2{
+    background-image: url(../img/icone-android.png);
+    background-color: rgba(0,0, 0, 0.5);
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width:60px;
+    height:60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-right: 18px;
+    border-radius: 500px;
+}
+
+#box3{
+    background-image: url(../img/icone-windows.png);
+    background-color: rgba(0,0, 0, 0.5);
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width:60px;
+    height:60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-right: 18px;
+    border-radius: 500px;
+}
+
+#box1:hover{
     background-color: #2ecc71;
     border-color: #2ecc71;
+    cursor: pointer;
     
- }
+}
  
- #button2:hover{
+#box2:hover{
      background-color: #2ecc71;
      border-color: #2ecc71; 
-  }
+     cursor: pointer;
+}
  
-  #button3:hover{
+#box3:hover{
      background-color: #2ecc71;
      border-color: #2ecc71; 
-  }
+     cursor: pointer;
+}
 
 .botoes2{
     display: flex;
@@ -85,11 +135,6 @@ p{
     justify-content: space-evenly;
     height: 35vh;
 }
-
-/* .box{
-    width: 220px;
-    text-align: center;
-} */
 
 #block1{
     width: 80px;
@@ -127,14 +172,101 @@ p{
     margin-bottom: 10px;
 }
 
+
+
 .dif{
     margin-left: 12.3em;
 }
 
+.dif>h1:hover{
+    color: #2ecc71;
+
+}
+
+.parte3{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    background-color: #CBCAD0;
+    background-size: 100vw;
+    margin: 40px 0 0 0;
+    
+    
+    
+    
+}
+
+.parte3 h1{
+    font-family: 'Montserrat', sans-serif;
+    justify-content: flex-start;
+    text-align: center;
+    
+}
+
+.parte3>p{
+    
+
+}
+
+.ajustinho>h1,p{
+    display: flex;
+    margin-top: 2vw;
+    margin-left: 6vh;
+    text-align: center;
+}
+#botaozinho{
+    width: 400px;
+    display: inline-flex;
+    padding: 10px;
+    margin: 2vw 0 10vw 6vh;
+    border: none;
+    border-right: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    outline: none;
+}
 
 
+#botaozinho2{
+    width: 70px;
+    height: 50px;
+    margin: 2vw 0 10vw 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background-color: #2ecc71;
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    
+}
 
+#botaozinho2:hover{
+    color: black;
+}
 
+#botaozinho:hover{
+    border: #2ecc71 1px solid;
+}
+
+.ajustinho {
+    display: flex;
+    flex-direction: column;
+}
+
+.part4{
+    display: flex;
+    
+}
+
+.video{
+    display: flex;
+    margin-top: 40px;
+       
+    
+}
 
 
 
