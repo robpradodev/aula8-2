@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    padding: 120px 120px ;
+    color: white;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    overflow: auto;
+    border-top: 6px solid #2ecc71;
+        
+    
+}
+
+header>div{
+    margin: 100px 0;
+    margin-bottom: 20px;
+
+}
+
+h1{
+    font-size: 2.265rem;
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    
+}
+
+p{
+    font-size: 1.100rem;
+    min-width: 300px;
+    width: 400px;
+}
+
+#diferentao{
+    color: #2ecc71;
+    
+}
+
+.botoes1{
+    display: flex;
+    margin-top: 0;
+}
+
+.botoes1>img{
+    display: inline-flex;
+    border: rgba(0,0, 0, 0.3) 15px solid;
+    background-color:  rgba(0,0, 0, 0.3);
+    border-radius: 500px;
+    margin-right: 0.70em;
+    
+      
+}
+
+#button1:hover{
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+    
+ }
+ 
+ #button2:hover{
+     background-color: #2ecc71;
+     border-color: #2ecc71; 
+  }
+ 
+  #button3:hover{
+     background-color: #2ecc71;
+     border-color: #2ecc71; 
+  }
+
+.botoes2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    
+}
+
+.botoes2>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 35vh;
+}
+
+/* .box{
+    width: 220px;
+    text-align: center;
+} */
+
+#block1{
+    width: 80px;
+    height: 80px;
+    background: #2ecc71;
+    border-radius: 50px;
+    background-image: url(../img/icone1.png);
+    background-size: 48px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+#block2{
+    width: 80px;
+    height: 80px;
+    background: #2ecc71;
+    border-radius: 50px;
+    background-image: url(../img/icone2.png);
+    background-size: 48px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+#block3{
+    width: 80px;
+    height: 80px;
+    background: #2ecc71;
+    border-radius: 50px;
+    background-image: url(../img/icone3.png);
+    background-size: 48px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.dif{
+    margin-left: 12.3em;
+}
+
+
+
+
+
+
+
+
+  @media(max-width:992px){
+    header{
+        padding: 0 100px;
+    }
+
+    header>div{
+        margin: 0 100px;
+    }
+
+
+}
