@@ -281,3 +281,70 @@ p{
 
 
 }
+
+.carrosel{
+    height: 600px;
+
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color:green;
+}
+
+.carousel .item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+.carousel>.item>img{
+    
+}
+
+
+
+.carousel .slide-in {
+   
+}
+
+.carousel .slide-in:target ~ .slide-in {
+   
+}
+
+.carousel .slide-in:target {
+   
+}
+
+.carousel .slide-in:target + .slide-in {
+   
+}
+
+.carousel .controls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 5;
+}
+
+.carousel .controls .btn {
+    display: inline-block;
+    background-color: #fff;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    margin: 0px 1px 15px;
+    opacity: 0.7;
+}
+
+.carousel .controls .btn:hover {
+    opacity: 0.9;
+}
